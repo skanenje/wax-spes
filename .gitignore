@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+.svelte-kit/
+out/
+
+# Vite
+.vite/
+*.json
+*.db
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Rust
+backend/target/
+backend/Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Electron
+/electron/
+main.js
+preload.js
+*.dmg
+*.exe
+*.zip
